@@ -5,6 +5,7 @@
     width: 100%;
     flex-direction: row;
     position: relative;
+    padding-bottom: 10rem;
 }
 
 .bookSlider__arrow{
@@ -85,6 +86,14 @@
     object-fit: contain;
     height: auto;
 }
+
+.book_cover--up{
+    top: -80px;
+}
+
+.book_coverCCntr--small{
+    flex: 0 0 170px;
+    }
 
 .book__meta{
     padding-left: 4rem;
@@ -175,4 +184,8 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.nav_tab{
+    overflow-x: hidden;
 }

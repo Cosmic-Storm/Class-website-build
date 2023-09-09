@@ -41,6 +41,7 @@ body{
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     color: #777;
     background-color: #f1f5f8;
+    overflow-x: hidden;
 }
 
 /* header */
